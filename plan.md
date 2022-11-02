@@ -1,26 +1,15 @@
 # Layout
 Basic layout of the UI should be
 
-\<LOGO\>
-| Title Bar | \<search text here\>       | \<filter arch\>           |
-----------------------------------------------------------------------
 | arch | syscall | callreg | arg0 | arg1 | arg2 | arg3 | arg4 | arg5 |
 |------|---------|---------|------|------|------|------|------|------|
-|<arch>|<syscall>|<callreg>|  --  |  --  |  --  |  --  |  --  |  --  |
-|<arch>|<syscall>|<callreg>|  --  |  --  |  --  |  --  |  --  |  --  |
-|<arch>|<syscall>|<callreg>|  --  |  --  |  --  |  --  |  --  |  --  |
-|<arch>|<syscall>|<callreg>|  --  |  --  |  --  |  --  |  --  |  --  |
-|<arch>|<syscall>|<callreg>|  --  |  --  |  --  |  --  |  --  |  --  |
+| arch | syscall | callreg |  --  |  --  |  --  |  --  |  --  |  --  |
+| arch | syscall | callreg |  --  |  --  |  --  |  --  |  --  |  --  |
+| arch | syscall | callreg |  --  |  --  |  --  |  --  |  --  |  --  |
+| arch | syscall | callreg |  --  |  --  |  --  |  --  |  --  |  --  |
+| arch | syscall | callreg |  --  |  --  |  --  |  --  |  --  |  --  |
 
 ## Example 1
- ______   ______  ____  _____ _____ 
-/ ___\ \ / / ___||  _ \| ____|  ___|
-\___ \\ V /\___ \| |_) |  _| | |_   
- ___) || |  ___) |  _ <| |___|  _|  
-|____/ |_| |____/|_| \_\_____|_|    
-                                
-| Syscall: read                                | all                                           |
-------------------------------------------------------------------------------------------------
 | arch  | syscall | callreg | arg0             | arg1      | arg2         | arg3 | arg4 | arg5 |
 |-------|---------|---------|------------------|-----------|--------------|------|------|------|
 | x86   | read    | 3       |  unsigned int fd | char *buf | size_t count |  --  |  --  |  --  |
